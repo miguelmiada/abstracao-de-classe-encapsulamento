@@ -14,7 +14,7 @@ public class PetMachine {
 
         this.water -= 10; // diminui a quantidade de água na máquina
         this.shampoo -= 2; // diminui a quantidade de shampoo na máquina
-        pet.setClean (true);
+        pet.setClean(true); // define o pet como limpo
         System.out.println("O pet " + pet.getName() + " está limpo!");
     }
 
