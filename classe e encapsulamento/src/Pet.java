@@ -16,7 +16,7 @@ public class Pet {
         return clean;
     }
 
-    public void setClean(boolean clean) { // define se o pet está limpo ou não
+    public void setClenan(boolean clean) { // define se o pet está limpo ou não
         this.clean = clean;
     }
 }

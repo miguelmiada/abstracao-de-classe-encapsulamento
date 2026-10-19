@@ -1,9 +1,11 @@
 public class PetMachine {
 
-    private boolean clean; // está limpo ou não // criando propriedade para a máquina de pet
-    private int water; // criando propriedade para a quantidade de água na máquina
-    private int shampoo; // criando propriedade para a quantidade de shampoo na máquina
+    private boolean clean = true; // está limpo ou não // criando propriedade para a máquina de pet
+    private int water = 30; // criando propriedade para a quantidade de água na máquina
+    private int shampoo = 10;// criando propriedade para a quantidade de shampoo na máquina
     private Pet pet; // maquina de pet
+
+
 
     public void takeAShower() { // função para dar banho no pet
 
@@ -63,11 +65,12 @@ public class PetMachine {
         }
 
         this.pet = pet;
+        System.out.println("O pet " + pet.getName() + " foi colocado na máquina ");
     }
 
     public void removePet() {
         this.clean = this.pet.isClean(); // atualiza o estado da máquina de acordo com o estado do pet
-        System.out.println("O pet" + this.pet.getName() + " está limpo");
+        System.out.println("O pet" + this.pet.getName() + " foi tirado da máquina");
         this.pet = null; // remove o pet da máquina
     }
 
@@ -76,6 +79,6 @@ public class PetMachine {
         this.shampoo -= 2; // diminui a quantidade de shampoo na máquina
 
         this.clean = true; // define a máquina como limpa
-        System.out.println("A máquina está limpa");
+        System.out.println("A máquina foi limpa");
     }
 }
