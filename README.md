@@ -1,18 +1,31 @@
-## Getting Started
+# Abstração, Classes e Encapsulamento em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto de estudo do curso **Java e a Arte da Abstração com Classes e Encapsulamento** (DIO).
 
-## Folder Structure
+## 📚 Conceitos praticados
+- Abstração
+- Classes e objetos
+- Encapsulamento (private, getters e setters)
 
-The workspace contains two folders by default, where:
+## 🗂️ Estrutura
+- `src/` → código-fonte
+  - `Produto`
+  - `Pet`
+  - `PetMachine`
+  - `Main3`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ▶️ Como executar
+1. Clonar: `git clone https://github.com/miguelmiada/abstracao-de-classe-encapsulamento.git`
+2. Abrir no VS Code (ou outra IDE Java)
+3. Executar a classe `Main3`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Tecnologias
+- Java (JDK 17+)
+- VS Code
+- Git e GitHub
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🎓 Certificado
+Curso concluído em 18/10/2026 (2h) na DIO.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 👤 Autor
+Miguel Miada — [LinkedIn](COLE_SEU_LINK)
